@@ -31,7 +31,7 @@ const NavBar = () => {
           <li>
             <input
               type="checkbox"
-              name="option1"
+              name="option2"
               checked={selectOptions.option2}
               onChange={handleCheckboxChange}
               /> Option 2
@@ -39,7 +39,7 @@ const NavBar = () => {
           <li>
             <input
               type="checkbox"
-              name="option1"
+              name="option3"
               checked={selectOptions.option3}
               onChange={handleCheckboxChange}
               /> Option 3
