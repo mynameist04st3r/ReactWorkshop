@@ -1,15 +1,24 @@
+import './App.css';
+import NavBar from './NavBar';
+import Carousel from './Carousel';
 
-import Card from './Card';
-import Sidebar from './Sidebar';
-
-function App(){
+function App() {
   return (
-      <div>
-        <header className='header'>Pokedex</header>
-        <Sidebar />
-          <Card />
+    <div id="root">
+      <header className="header"> <img src='/src/assets/pokemon 1.svg'/></header>
+      <div className="body">
+
+      <div className="navBar">
+        <NavBar/>
       </div>
+        <div className="main-content">
+
+          <Carousel />
+        </div>
+      </div>
+      </div>
+
   );
 }
 
-export default App
+export default App;

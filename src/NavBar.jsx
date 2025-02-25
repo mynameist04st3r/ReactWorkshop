@@ -17,6 +17,9 @@ const NavBar = () => {
         <div>
           <a href="">About</a>
         </div>
+        <div>
+          <a href="">Contact</a>
+        </div>
       </div>
       <div className="options-container">
         <ul>
