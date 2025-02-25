@@ -22,30 +22,39 @@ const NavBar = () => {
         </div>
       </div>
       <div className="options-container">
+        <div className="optionselector">
+          <h4>Choose<br/>Features</h4>
+        </div>
         <ul>
           <li>
             <input
               type="checkbox"
+              id="option1"
               name="option1"
               checked={selectOptions.option1}
               onChange={handleCheckboxChange}
-              /> Option 1
+              />
+              <label for="option1">Option 1</label>
           </li>
           <li>
             <input
               type="checkbox"
+              id="option2"
               name="option2"
               checked={selectOptions.option2}
               onChange={handleCheckboxChange}
-              /> Option 2
+              />
+              <label for="option2">Option 2</label>
           </li>
           <li>
             <input
               type="checkbox"
+              id="option3"
               name="option3"
               checked={selectOptions.option3}
               onChange={handleCheckboxChange}
-              /> Option 3
+              />
+              <label for="option3">Option 3</label>
           </li>
         </ul>
       </div>

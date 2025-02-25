@@ -4,8 +4,8 @@ import Carousel from './Carousel';
 
 function App() {
   return (
-    <div className="whole-app">
-      <header className="header"> <img src='/src/assets/pokemon 1.svg'/></header>
+    <div>
+      <header className="header"> <img src='/src/assets/pokemon.svg'/></header>
       <div className="background-image"></div>
       <div className="dark-cover"></div>
       <div className="body">

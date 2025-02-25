@@ -12,9 +12,9 @@
   width: 80%;
   margin-left: 150px;
   padding: auto;
-  border: 1px orange solid;
+  /* border: 1px orange solid; */
   margin-top: 200px;
-  background-color: rgba(255,255,255,0.3);
+  background-color: rgba(255,255,90,0.1);
 }
 
 .prev, .next {
@@ -22,7 +22,9 @@
   font-size: 120px;
   background: none;
   padding: 50px;
-  border: 1px red solid;
+  border: none;
+  outline: none;
+  /* border: 1px red solid; */
 }
 
 .innerCarousel {
@@ -31,7 +33,7 @@
   padding: 5px;
   scroll-behavior: smooth;
   justify-content: center;
-  border: 1px black solid;
+  /* border: 1px black solid; */
 }
 
 .carousel-item {
@@ -40,16 +42,16 @@
   border: 1px lightgrey solid;
   background-color: rgba(0,0,0,0.7);
 }
-.header{
+.header {
   display: flex;
-  height: 20px;
+  height: 100px;
   text-align: center;
   justify-content: center;
   font: 150px black;
-  border: 1px rgb(0, 255, 64) solid;
-  background-color: white;
+  /* border: 1px rgb(0, 255, 64) solid; */
   overflow: hidden;
-
+  z-index: 1;
+  position: relative;
 }
 .header img {
   max-width: 100%;
@@ -61,14 +63,27 @@
   flex-direction: column;
   width: 150px;
   height: 50vh;
-  border: 1px black solid;
+  border-right: 1px black solid;
+  text-align: left;
+  margin-left: 3px;
 }
+
+.optionselector {
+  margin-top: 40px;
+}
+
+.navBar li{
+  list-style-type: none;
+  text-justify: left;
+}
+
 .main-content {
-  margin-left: 50px;
+  flex-direction: row;
+  margin-left: 15px;
   margin-right: 50px;
   padding: 2rem;
   flex-grow: 1;
-  border: 1px blue solid;
+  /* border: 1px blue solid; */
 
 }
 

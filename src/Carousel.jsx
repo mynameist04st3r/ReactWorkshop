@@ -34,6 +34,7 @@ const Card = () => {
     setCurrentIndex((currentIndex - 4 + images.length) % images.length);
   };
 
+
   return (
     <div className="carousel">
       <button className="prev" onClick={handlePrevClick}>
@@ -45,6 +46,8 @@ const Card = () => {
             <img src={image.src} alt={image.alt} />
             <p>{image.alt}</p>
             <p>#{image.id}</p>
+            <p>#{image.id}</p>
+
           </div>
         ))}
       </div>
