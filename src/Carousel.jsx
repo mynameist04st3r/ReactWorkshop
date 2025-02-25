@@ -16,6 +16,7 @@ const Card = () => {
             src: pokemon.sprites.front_default,
             alt: pokemon.name,
           });
+
         } catch (error) {
           console.error('Error fetching Pokémon:', error);
         }
